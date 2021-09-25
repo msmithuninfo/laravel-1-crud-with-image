@@ -1,0 +1,32 @@
+step:1- composer create-project --prefer-dist laravel/laravel laravelcrudone
+step:2- create database in xampp
+step:3- .env file a database name dite hobe
+step:4- php artisan make:model Student -m (akta model create hobe and migration create hobe)
+step:5- migration theke students table a kicu add kore nibo
+step:6- migration ar students table a ja ja likhlam ta mantion kore nite hobe. mantion korbo Models ar Student ar modde.
+step:7- php artisan migrate (command line theke migrate kore nite hobe akhon)
+step:8- php artisan make:controller StudentController -r (akhon controller toiri kore nite hobe, -r ar mane resource soho niye asbe)
+step:9- arpor controller a kaj korar age route toiri kore nibo, route toiri korbo routes folder ar web.php te
+step:10- StudentController a kaj korbo
+step:11- arpor folder and file create kore sei index.blad.php te kaj korbo
+step:12- index.blade.php ar Add Student button a click korle add-student link a chole jabe
+	add-student link ar jonno route create kore kaj korte hobe
+step:13- route a StudentController ar create ke dora hoyece, tai akhon StudentController ar create a kaj korbo
+step:14- Studentcontroller ar create ar modde views-students-create.blade.php create kore seitate kaj korte hobe
+step:15- $student->name = $request->name; (from StudentController, request->name input filed theke, student->name database theke(Model ar Student theke))
+step:16- hasfile ar mane input filed a image ace kina (from StudentController store)
+step:17- return redirect()->back()->with('status','Student Added Successfully.'); back() ar mane same page ai thakbe
+step:18- @if (session('status')) (session jodi true hoi tahle kaj korbe)
+step:19- PUT (single kicu change korar jonno laravel a put use korbo)
+step:1-
+step:1-
+step:1-
+step:1-
+step:1-
+step:1-
+step:1-
+step:1-
+step:1-
+step:1-
+step:1-
+step:1-
